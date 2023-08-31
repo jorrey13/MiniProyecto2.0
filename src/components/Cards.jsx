@@ -12,7 +12,6 @@ const Cards = ({ ciudad, foto, superHost, type, rating, title }) => {
       <p><FontAwesomeIcon icon={faStar} style={{color: "#ef0101"}} />{rating}</p>
       </div>
       <h6 className="card-title">{title}</h6>
-      <h2>{ciudad}</h2>
     </div>
   );
 };
