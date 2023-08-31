@@ -1,0 +1,291 @@
+*{
+  margin: 0;
+  padding: 0;
+  border-radius: auto;
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: 'Mulish', sans-serif; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 110px;
+    flex-direction: row;
+  }
+
+  .stays{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 110px;
+    flex-direction: row;
+    font-weight: bold;
+  }
+  
+
+  .logo {
+    width: 90px;
+    height: auto;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  
+  .form-control {
+    width: 150px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+
+  .card-container {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: calc(33.33% - 10px); /* Tres tarjetas por fila con espacio entre ellas */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+
+  .card-img {
+    width: 395px;
+    height: 269px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .super-host {
+    color: rgb(7, 8, 7);
+    border: 1px solid #0a0909;
+    border-radius: 20px;
+  }
+
+  .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+
+.modal {
+  height: 460px;
+  width: 460px;
+  background-color: #f8f4f4;
+  opacity: 90%;
+}
+
+.search-icon {
+    cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 110px;
+    flex-direction: row;
+  }
+
+  .stays{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 110px;
+    flex-direction: row;
+    font-weight: bold;
+  }
+ 
+  .logo {
+    width: 90px;
+    height: auto;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .form-control {
+    width: 150px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+
+  .card-container {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: calc(33.33% - 10px); /* Tres tarjetas por fila con espacio entre ellas */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .card-img {
+    width: 395px;
+    height: 269px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .super-host {
+    color: rgb(7, 8, 7);
+    border: 1px solid #0a0909;
+    border-radius: 20px;
+  }
+
+  .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+.modal {
+  height: 460px;
+  width: 460px;
+  background-color: #f8f4f4;
+  opacity: 90%;
+}
+
+.search-icon {
+    cursor: pointer;
+}
+}
+
+@media (max-width: 575px) {
+  .main-container {
+    padding: 10px;
+  }
+
+  
+  .card-container {
+    justify-content: center;
+  }
+
+  .card {
+    flex: 0 1 100%; /* Una tarjeta por fila */
+    margin-bottom: 10px;
+  }
+
+  .card-img {
+    width: auto;
+    height: auto;
+  }
+
+  
+.nav-container {
+  display: block;
+
+}
+
+.stays{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-weight: bold;
+}
+
+/* Estilos para el logo */
+.logo {
+  width: 90px;
+  height: auto;
+  padding: -150px 1px;
+} 
+
+/* Estilos para el contenedor de búsqueda */
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+/* Estilos para los campos de entrada */
+.form-control {
+  width: 150px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+/* Estilos para el estado de "Super Host" */
+.super-host {
+  color: rgb(7, 8, 7);
+  border: 1px solid #0a0909;
+  border-radius: 20px;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+/* Estilos para el modal con ancho y alto personalizados */
+.modal {
+height: 260px;
+width: 260px;
+background-color: #f8f4f4;
+opacity: 90%;
+}
+
+.search-icon {
+  cursor: pointer;
+}
+}
+
+
+
+
+
